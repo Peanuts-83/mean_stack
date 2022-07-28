@@ -147,7 +147,7 @@ function AppComponent_pre_91_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](37);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate2"](" // app.get('*', (req, res) => ", "{", "\n                res.sendFile(path.join(__dirname, '../public/index.html'));\n              ", "}", ");");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](15);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate6"]("mongoose.connect('mongodb://angulardyma:123@ds119685.mlab.com:19685/angulardyma',\n                function (error) ", "{", "\n                    if (error) ", "{", "\n                      console.log(error);\n                      ", "}", " else ", "{", "\n                      console.log('Connexion opened to mongodb!');\n                      ", "}", "\n                      ", "}", ");");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate6"]("mongoose.connect('mongodb://DBName:DBpassword@ds119685.mlab.com:19685/DBName',\n                function (error) ", "{", "\n                    if (error) ", "{", "\n                      console.log(error);\n                      ", "}", " else ", "{", "\n                      console.log('Connexion opened to mongodb!');\n                      ", "}", "\n                      ", "}", ");");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](7);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"]("AWS");
 } }
