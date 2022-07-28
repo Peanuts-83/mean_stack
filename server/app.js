@@ -20,7 +20,10 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, '../public')));
 
-mongoose.connect(`mongodb+srv://${db.userName}:${db.password}@${db.database}?retryWrites=true&w=majority`,
+mongoose.connect(`mongodb+srv://${db.userName}:${db.password}@${db.database}?retryWrites=true&w=majority`, {
+  keepAlive: true,
+  useMongoClient: true
+},
   function (err) {
     if (err) {
       console.log('Error', err);
