@@ -108,7 +108,7 @@ function AppComponent_div_91_Template(rf, ctx) { if (rf & 1) {
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "cd server & npm i");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](89, "li");
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "npm run prod");
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](90, "npm run prod (sudo PORT=80 node ./bin/www)");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](91, "li");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](92, "copy & paste public DNS in browser url to display app");
